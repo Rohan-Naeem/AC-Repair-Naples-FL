@@ -1,0 +1,116 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/ac-not-cooling.html",
+      "destination": "/ac-not-cooling",
+      "permanent": true
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/condensate-drain-clog.html",
+      "destination": "/condensate-drain-clog",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-aqualane-shores.html",
+      "destination": "/hvac-aqualane-shores",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-bayshore-arts-district.html",
+      "destination": "/hvac-bayshore-arts-district",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-royal-harbor.html",
+      "destination": "/hvac-royal-harbor",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-system-replacement.html",
+      "destination": "/hvac-system-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/locations.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/mini-split-repair.html",
+      "destination": "/mini-split-repair",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/window-ac-installation.html",
+      "destination": "/window-ac-installation",
+      "permanent": true
+    },
+    {
+      "source": "/compressor-valve-replacement.html",
+      "destination": "/compressor-valve-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/package-unit-repair.html",
+      "destination": "/package-unit-repair",
+      "permanent": true
+    },
+    {
+      "source": "/ac-maintenance-tune-up.html",
+      "destination": "/ac-maintenance-tune-up",
+      "permanent": true
+    },
+    {
+      "source": "/refrigerant-freon-recharge.html",
+      "destination": "/refrigerant-freon-recharge",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-port-royal.html",
+      "destination": "/hvac-port-royal",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-park-shore.html",
+      "destination": "/hvac-park-shore",
+      "permanent": true
+    },
+    {
+      "source": "/landmarks.html",
+      "destination": "/landmarks",
+      "permanent": true
+    }
+  ]
+}
