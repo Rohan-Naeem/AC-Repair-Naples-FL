@@ -109,7 +109,7 @@
     },
     {
       "source": "/landmarks.html",
-      "destination": "/landmarks",
+      "destination": "/locations",
       "permanent": true
     }
   ]
