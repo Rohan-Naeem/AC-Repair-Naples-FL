@@ -37,7 +37,7 @@
     var bar = document.querySelector(".t6-mobile-cta");
     if (!bar) return;
     bar.style.transition = "transform .25s ease";
-    window.addEventListener("scroll", function () {
+    function check() {
       var y = window.scrollY;
       // Hide when at the very top of the page (no need to interrupt hero).
       if (y < 120) {
@@ -45,7 +45,9 @@
       } else {
         bar.style.transform = "translateY(0)";
       }
-    }, { passive: true });
+    }
+    check();
+    window.addEventListener("scroll", check, { passive: true });
   }
 
   // ------- Smooth-scroll for anchor links -------
