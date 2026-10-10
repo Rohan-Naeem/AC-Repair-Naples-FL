@@ -111,6 +111,56 @@
       "source": "/landmarks.html",
       "destination": "/locations",
       "permanent": true
+    },
+    {
+      "source": "/blog/ac-blowing-hot-air-naples-fl.html",
+      "destination": "/blog/ac-blowing-hot-air-naples-fl",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-my-ac-not-blowing-cold-air.html",
+      "destination": "/blog/why-is-my-ac-not-blowing-cold-air",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-my-air-conditioner-leaking.html",
+      "destination": "/blog/why-is-my-air-conditioner-leaking",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ac-frozen-naples-fl.html",
+      "destination": "/blog/ac-frozen-naples-fl",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-to-do-when-ac-drain-line-clogged.html",
+      "destination": "/blog/what-to-do-when-ac-drain-line-clogged",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-my-ac-making-noise.html",
+      "destination": "/blog/why-is-my-ac-making-noise",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-reset-ac-unit-safely.html",
+      "destination": "/blog/how-to-reset-ac-unit-safely",
+      "permanent": true
+    },
+    {
+      "source": "/blog/does-your-ac-have-refrigerant-leak.html",
+      "destination": "/blog/does-your-ac-have-refrigerant-leak",
+      "permanent": true
+    },
+    {
+      "source": "/blog/simple-ac-maintenance-tips-florida-homeowners.html",
+      "destination": "/blog/simple-ac-maintenance-tips-florida-homeowners",
+      "permanent": true
+    },
+    {
+      "source": "/blog/when-to-call-ac-repair-technician.html",
+      "destination": "/blog/when-to-call-ac-repair-technician",
+      "permanent": true
     }
   ]
 }
