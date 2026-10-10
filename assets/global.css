@@ -1583,25 +1583,108 @@ h4 { font-size: 1.1rem; font-weight: 600; }
     font-weight: 700 !important;
   }
 
-  /* About Section */
-  #about div[style*="display:grid;gap:3rem"] {
+  /* About Section - Responsive 15+ Years Trade Badge & Diagnostics Frame */
+  #about div[style*="display:grid;gap:3rem"],
+  section#about div[style*="display:grid;gap:3rem"] {
     gap: 1.75rem !important;
   }
 
-  #about .t6-image-frame--square {
+  #about .t6-image-frame--square,
+  section#about .t6-image-frame--square {
     aspect-ratio: 16 / 10 !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
-  #about div[style*="grid-template-columns:1fr 1fr"] {
+  #about div[style*="grid-template-columns:1fr 1fr"],
+  section#about div[style*="grid-template-columns:1fr 1fr"] {
+    display: grid !important;
+    grid-template-columns: minmax(100px, 120px) minmax(0, 1fr) !important;
     gap: 0.75rem !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
-  #about div[style*="border-left:4px solid var(--t6-green)"] {
-    padding: 0.95rem 1rem !important;
+  #about div[style*="grid-template-columns:1fr 1fr"] > .t6-image-frame,
+  section#about div[style*="grid-template-columns:1fr 1fr"] > .t6-image-frame {
+    aspect-ratio: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    border-radius: 14px !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
   }
 
-  #about div[style*="border-left:4px solid var(--t6-green)"] span[style*="font-size:2.25rem"] {
-    font-size: 1.75rem !important;
+  #about div[style*="grid-template-columns:1fr 1fr"] > .t6-image-frame img,
+  section#about div[style*="grid-template-columns:1fr 1fr"] > .t6-image-frame img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  #about div[style*="border-left:4px solid var(--t6-green)"],
+  section#about div[style*="border-left:4px solid var(--t6-green)"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    padding: 0.85rem 0.95rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    border-radius: 14px !important;
+    overflow: visible !important;
+  }
+
+  #about div[style*="border-left:4px solid var(--t6-green)"] div[style*="display:flex"],
+  section#about div[style*="border-left:4px solid var(--t6-green)"] div[style*="display:flex"] {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+
+  #about div[style*="border-left:4px solid var(--t6-green)"] span[style*="width:34px"],
+  section#about div[style*="border-left:4px solid var(--t6-green)"] span[style*="width:34px"] {
+    width: 28px !important;
+    height: 28px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #about div[style*="border-left:4px solid var(--t6-green)"] span[style*="width:34px"] svg,
+  section#about div[style*="border-left:4px solid var(--t6-green)"] span[style*="width:34px"] svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  #about div[style*="border-left:4px solid var(--t6-green)"] span[style*="font-size:2.25rem"],
+  section#about div[style*="border-left:4px solid var(--t6-green)"] span[style*="font-size:2.25rem"] {
+    font-size: 1.65rem !important;
+    line-height: 1 !important;
+  }
+
+  #about div[style*="border-left:4px solid var(--t6-green)"] p:nth-of-type(1),
+  section#about div[style*="border-left:4px solid var(--t6-green)"] p:nth-of-type(1) {
+    font-size: 0.88rem !important;
+    line-height: 1.25 !important;
+    margin: 0 !important;
+    white-space: normal !important;
+    word-break: normal !important;
+  }
+
+  #about div[style*="border-left:4px solid var(--t6-green)"] p:nth-of-type(2),
+  section#about div[style*="border-left:4px solid var(--t6-green)"] p:nth-of-type(2) {
+    font-size: 0.74rem !important;
+    line-height: 1.35 !important;
+    margin-top: 0.25rem !important;
+    white-space: normal !important;
+    word-break: normal !important;
   }
 
   #about div[style*="grid-template-columns:repeat(2,1fr)"] {
@@ -2007,8 +2090,8 @@ h4 { font-size: 1.1rem; font-weight: 600; }
   }
 
   /* Animations: Convert horizontal slide on mobile to smooth vertical fade to avoid overflow jitter */
-  [data-sal="slide-left"],
-  [data-sal="slide-right"] {
+  [data-sal="slide-left"]:not(.sal-animate),
+  [data-sal="slide-right"]:not(.sal-animate) {
     transform: translateY(16px) !important;
   }
 }
@@ -2048,5 +2131,49 @@ h4 { font-size: 1.1rem; font-weight: 600; }
   header .t6-btn.t6-btn-primary {
     padding: 7px 10px !important;
     font-size: 0.78rem !important;
+  }
+
+  /* Compact 15+ Badge & Diagnostic Frame */
+  #about div[style*="grid-template-columns:1fr 1fr"],
+  section#about div[style*="grid-template-columns:1fr 1fr"] {
+    grid-template-columns: minmax(85px, 100px) minmax(0, 1fr) !important;
+    gap: 0.65rem !important;
+  }
+
+  #about div[style*="border-left:4px solid var(--t6-green)"],
+  section#about div[style*="border-left:4px solid var(--t6-green)"] {
+    padding: 0.75rem 0.85rem !important;
+  }
+
+  #about div[style*="border-left:4px solid var(--t6-green)"] span[style*="font-size:2.25rem"],
+  section#about div[style*="border-left:4px solid var(--t6-green)"] span[style*="font-size:2.25rem"] {
+    font-size: 1.5rem !important;
+  }
+
+  #about div[style*="border-left:4px solid var(--t6-green)"] p:nth-of-type(1),
+  section#about div[style*="border-left:4px solid var(--t6-green)"] p:nth-of-type(1) {
+    font-size: 0.82rem !important;
+  }
+
+  #about div[style*="border-left:4px solid var(--t6-green)"] p:nth-of-type(2),
+  section#about div[style*="border-left:4px solid var(--t6-green)"] p:nth-of-type(2) {
+    font-size: 0.7rem !important;
+    line-height: 1.3 !important;
+  }
+}
+
+/* --- Ultra-Compact Devices (<= 340px, e.g. Fold Cover) --- */
+@media (max-width: 340px) {
+  #about div[style*="grid-template-columns:1fr 1fr"],
+  section#about div[style*="grid-template-columns:1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+    gap: 0.65rem !important;
+  }
+
+  #about div[style*="grid-template-columns:1fr 1fr"] > .t6-image-frame,
+  section#about div[style*="grid-template-columns:1fr 1fr"] > .t6-image-frame {
+    aspect-ratio: 16 / 9 !important;
+    max-height: 130px !important;
+    height: auto !important;
   }
 }
