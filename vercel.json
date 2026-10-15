@@ -161,6 +161,26 @@
       "source": "/blog/when-to-call-ac-repair-technician.html",
       "destination": "/blog/when-to-call-ac-repair-technician",
       "permanent": true
+    },
+    {
+      "source": "/ac-not-working.html",
+      "destination": "/ac-not-working",
+      "permanent": true
+    },
+    {
+      "source": "/central-ac-repair.html",
+      "destination": "/central-ac-repair",
+      "permanent": true
+    },
+    {
+      "source": "/ac-not-blowing-cold-air.html",
+      "destination": "/ac-not-blowing-cold-air",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-ac-unit-replacement.html",
+      "destination": "/commercial-ac-unit-replacement",
+      "permanent": true
     }
   ]
 }
