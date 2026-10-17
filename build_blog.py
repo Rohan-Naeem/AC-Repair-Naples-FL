@@ -249,7 +249,88 @@ def get_desktop_nav(depth=0):
             <a href="{p}locations.html" class="t6-nav-panel-all">View all service areas &rarr;</a>
           </div>
         </div>
-        <a href="{p}blog.html" class="t6-nav-link" style="color:var(--t6-green);font-weight:600;">Blog</a>
+        <div class="t6-nav-dropdown">
+          <a href="{p}blog.html" class="t6-nav-link" aria-haspopup="true">Blog <svg class="t6-nav-chevron"
+              width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 9l6 6 6-6" />
+            </svg></a>
+          <div class="t6-nav-panel t6-nav-panel--blog" role="menu">
+            <div class="t6-nav-panel-grid">
+              <a href="{p}blog/ac-blowing-hot-air-naples-fl.html" class="t6-nav-panel-item">
+                <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                <span class="t6-nav-panel-text">
+                  <span class="t6-nav-panel-title">AC Blowing Hot Air</span>
+                  <span class="t6-nav-panel-desc">Common causes of warm airflow and what steps to take immediately.</span>
+                </span>
+              </a>
+              <a href="{p}blog/why-is-my-ac-not-blowing-cold-air.html" class="t6-nav-panel-item">
+                <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                <span class="t6-nav-panel-text">
+                  <span class="t6-nav-panel-title">AC Not Blowing Cold Air</span>
+                  <span class="t6-nav-panel-desc">Diagnosing weak cooling, dirty coils, and low delta-T splits.</span>
+                </span>
+              </a>
+              <a href="{p}blog/why-is-my-air-conditioner-leaking.html" class="t6-nav-panel-item">
+                <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                <span class="t6-nav-panel-text">
+                  <span class="t6-nav-panel-title">AC Leaking Water</span>
+                  <span class="t6-nav-panel-desc">Identifying clogged drain lines, cracked drain pans, and overflows.</span>
+                </span>
+              </a>
+              <a href="{p}blog/what-to-do-when-ac-drain-line-clogged.html" class="t6-nav-panel-item">
+                <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                <span class="t6-nav-panel-text">
+                  <span class="t6-nav-panel-title">Clogged AC Drain Line</span>
+                  <span class="t6-nav-panel-desc">Step-by-step homeowner solutions to clear condensate line backups.</span>
+                </span>
+              </a>
+              <a href="{p}blog/ac-frozen-naples-fl.html" class="t6-nav-panel-item">
+                <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                <span class="t6-nav-panel-text">
+                  <span class="t6-nav-panel-title">Frozen AC Unit</span>
+                  <span class="t6-nav-panel-desc">Why evaporator coils freeze up and how to safely thaw and resolve.</span>
+                </span>
+              </a>
+              <a href="{p}blog/why-is-my-ac-making-noise.html" class="t6-nav-panel-item">
+                <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                <span class="t6-nav-panel-text">
+                  <span class="t6-nav-panel-title">AC Making Loud Noise</span>
+                  <span class="t6-nav-panel-desc">6 unusual air conditioner sounds explained and what repairs are needed.</span>
+                </span>
+              </a>
+              <a href="{p}blog/does-your-ac-have-refrigerant-leak.html" class="t6-nav-panel-item">
+                <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                <span class="t6-nav-panel-text">
+                  <span class="t6-nav-panel-title">Refrigerant Leak Signs</span>
+                  <span class="t6-nav-panel-desc">Warning signs of freon loss, hissing sounds, and testing methods.</span>
+                </span>
+              </a>
+              <a href="{p}blog/how-to-reset-ac-unit-safely.html" class="t6-nav-panel-item">
+                <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                <span class="t6-nav-panel-text">
+                  <span class="t6-nav-panel-title">How to Reset AC Unit</span>
+                  <span class="t6-nav-panel-desc">Safe step-by-step procedure to reset breakers and digital thermostats.</span>
+                </span>
+              </a>
+              <a href="{p}blog/simple-ac-maintenance-tips-florida-homeowners.html" class="t6-nav-panel-item">
+                <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                <span class="t6-nav-panel-text">
+                  <span class="t6-nav-panel-title">Simple AC Maintenance Tips</span>
+                  <span class="t6-nav-panel-desc">Essential seasonal habits and tips for coastal Southwest Florida.</span>
+                </span>
+              </a>
+              <a href="{p}blog/when-to-call-ac-repair-technician.html" class="t6-nav-panel-item">
+                <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                <span class="t6-nav-panel-text">
+                  <span class="t6-nav-panel-title">When to Call a Technician</span>
+                  <span class="t6-nav-panel-desc">5 critical warning signs requiring professional HVAC troubleshooting.</span>
+                </span>
+              </a>
+            </div>
+            <a href="{p}blog.html" class="t6-nav-panel-all">View all HVAC guides &amp; articles &rarr;</a>
+          </div>
+        </div>
         <a href="{p}contact.html" class="t6-nav-link">Contact</a>
       </nav>"""
 
@@ -306,6 +387,22 @@ def get_mobile_drawer(depth=0):
             <li><a href="{p}hvac-royal-harbor.html" class="t6-link-grow t6-link-grow--on-ink">Royal Harbor</a></li>
             <li><a href="{p}hvac-port-royal.html" class="t6-link-grow t6-link-grow--on-ink">Port Royal</a></li>
             <li><a href="{p}hvac-park-shore.html" class="t6-link-grow t6-link-grow--on-ink">Park Shore</a></li>
+          </ul>
+        </details>
+        <details style="margin-top:1rem;color:#fff;">
+          <summary style="font-family:var(--font-display);cursor:pointer;font-weight:600;">Latest Guides &amp; Articles</summary>
+          <ul
+            style="list-style:none;padding:.6rem 0 0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:.4rem .8rem;color:rgba(255,255,255,.85);">
+            <li><a href="{p}blog/ac-blowing-hot-air-naples-fl.html" class="t6-link-grow t6-link-grow--on-ink">AC Blowing Hot Air</a></li>
+            <li><a href="{p}blog/why-is-my-ac-not-blowing-cold-air.html" class="t6-link-grow t6-link-grow--on-ink">AC Not Blowing Cold Air</a></li>
+            <li><a href="{p}blog/why-is-my-air-conditioner-leaking.html" class="t6-link-grow t6-link-grow--on-ink">AC Leaking Water</a></li>
+            <li><a href="{p}blog/what-to-do-when-ac-drain-line-clogged.html" class="t6-link-grow t6-link-grow--on-ink">Clogged AC Drain Line</a></li>
+            <li><a href="{p}blog/ac-frozen-naples-fl.html" class="t6-link-grow t6-link-grow--on-ink">Frozen AC Unit</a></li>
+            <li><a href="{p}blog/why-is-my-ac-making-noise.html" class="t6-link-grow t6-link-grow--on-ink">AC Making Loud Noise</a></li>
+            <li><a href="{p}blog/does-your-ac-have-refrigerant-leak.html" class="t6-link-grow t6-link-grow--on-ink">Refrigerant Leak Signs</a></li>
+            <li><a href="{p}blog/how-to-reset-ac-unit-safely.html" class="t6-link-grow t6-link-grow--on-ink">How to Reset AC Unit</a></li>
+            <li><a href="{p}blog/simple-ac-maintenance-tips-florida-homeowners.html" class="t6-link-grow t6-link-grow--on-ink">Simple AC Maintenance Tips</a></li>
+            <li><a href="{p}blog/when-to-call-ac-repair-technician.html" class="t6-link-grow t6-link-grow--on-ink">When to Call a Technician</a></li>
           </ul>
         </details>
         <a href="tel:+12396861066" class="t6-btn t6-btn-primary" style="margin-top:1.5rem;width:100%;">Call (239) 686-1066</a>
