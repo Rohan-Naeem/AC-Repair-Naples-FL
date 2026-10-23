@@ -12,7 +12,7 @@ import os
 SERVICES = [
     {
         "filename": "ac-not-working.html",
-        "clean_url": "https://acrepairnaplesfl.com/ac-not-working",
+        "clean_url": "https://www.acrepairnaplesfl.com/ac-not-working",
         "title": "AC Not Working Naples FL | 24/7 Emergency AC Diagnostic & Repair",
         "meta_desc": "Air conditioner not working in Naples, FL? Fast same-day diagnostic troubleshooting, electrical repairs, capacitor replacement, and 24/7 emergency response. Call (239) 686-1066.",
         "h1": "AC Not Working in Naples, FL? Fast Diagnostic & Emergency Repair",
@@ -122,7 +122,7 @@ SERVICES = [
     },
     {
         "filename": "central-ac-repair.html",
-        "clean_url": "https://acrepairnaplesfl.com/central-ac-repair",
+        "clean_url": "https://www.acrepairnaplesfl.com/central-ac-repair",
         "title": "Central AC Repair Naples FL | Split System & Air Handler Service",
         "meta_desc": "Expert central AC repair in Naples, FL. We diagnose & repair split-system air conditioners, blower motors, evaporator coils, and condensers with same-day service. Call (239) 686-1066.",
         "h1": "Central AC Repair in Naples, FL | Split System & Heat Pump Specialists",
@@ -232,7 +232,7 @@ SERVICES = [
     },
     {
         "filename": "ac-not-blowing-cold-air.html",
-        "clean_url": "https://acrepairnaplesfl.com/ac-not-blowing-cold-air",
+        "clean_url": "https://www.acrepairnaplesfl.com/ac-not-blowing-cold-air",
         "title": "AC Not Blowing Cold Air Naples FL | AC Blowing Warm Air Fix",
         "meta_desc": "Is your AC not blowing cold air in Naples, FL? We fix warm air from vents, frozen evaporator coils, dirty coils, and refrigerant issues fast. Call (239) 686-1066.",
         "h1": "AC Not Blowing Cold Air in Naples, FL | Warm Air Troubleshooting",
@@ -342,7 +342,7 @@ SERVICES = [
     },
     {
         "filename": "commercial-ac-unit-replacement.html",
-        "clean_url": "https://acrepairnaplesfl.com/commercial-ac-unit-replacement",
+        "clean_url": "https://www.acrepairnaplesfl.com/commercial-ac-unit-replacement",
         "title": "Commercial AC Unit Replacement Naples FL | Rooftop RTU & HVAC",
         "meta_desc": "Commercial AC unit replacement in Naples, FL. Heavy-duty rooftop packaged units (RTUs), split systems, load calculations & expert commercial HVAC installation. Call (239) 686-1066.",
         "h1": "Commercial AC Unit Replacement in Naples, FL | Rooftop RTU & Commercial HVAC",
@@ -679,7 +679,7 @@ def build_service_page(svc):
   "url": "{svc['clean_url']}",
   "provider": {{
     "@type": "LocalBusiness",
-    "@id": "https://acrepairnaplesfl.com/#localbusiness",
+    "@id": "https://www.acrepairnaplesfl.com/#localbusiness",
     "name": "Premium AC Solutions",
     "telephone": "+12396861066"
   }},
@@ -720,7 +720,7 @@ def build_service_page(svc):
 {{
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://acrepairnaplesfl.com/#localbusiness",
+  "@id": "https://www.acrepairnaplesfl.com/#localbusiness",
   "name": "Premium AC Solutions",
   "telephone": "+12396861066",
   "address": {{
@@ -788,13 +788,13 @@ def build_service_page(svc):
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://acrepairnaplesfl.com/"
+      "item": "https://www.acrepairnaplesfl.com/"
     }},
     {{
       "@type": "ListItem",
       "position": 2,
       "name": "Services",
-      "item": "https://acrepairnaplesfl.com/services"
+      "item": "https://www.acrepairnaplesfl.com/services"
     }},
     {{
       "@type": "ListItem",

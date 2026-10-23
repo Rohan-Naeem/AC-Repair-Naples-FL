@@ -43,7 +43,7 @@ with open("sitemap.xml", "r", encoding="utf-8") as f:
     sitemap = f.read()
 for s in services:
     clean = s.replace(".html", "")
-    assert f"https://acrepairnaplesfl.com/{clean}" in sitemap, f"sitemap missing {clean}"
+    assert f"https://www.acrepairnaplesfl.com/{clean}" in sitemap, f"sitemap missing {clean}"
 print("PASS: sitemap.xml has all 4 clean URLs.")
 
 with open("_redirects", "r", encoding="utf-8") as f:

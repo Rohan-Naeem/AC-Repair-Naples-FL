@@ -323,33 +323,33 @@ with open("sitemap.xml", "r", encoding="utf-8") as f:
     sitemap = f.read()
 
 new_sitemap_entries = """    <url>
-        <loc>https://acrepairnaplesfl.com/ac-not-working</loc>
+        <loc>https://www.acrepairnaplesfl.com/ac-not-working</loc>
         <lastmod>2026-10-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://acrepairnaplesfl.com/central-ac-repair</loc>
+        <loc>https://www.acrepairnaplesfl.com/central-ac-repair</loc>
         <lastmod>2026-10-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://acrepairnaplesfl.com/ac-not-blowing-cold-air</loc>
+        <loc>https://www.acrepairnaplesfl.com/ac-not-blowing-cold-air</loc>
         <lastmod>2026-10-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://acrepairnaplesfl.com/commercial-ac-unit-replacement</loc>
+        <loc>https://www.acrepairnaplesfl.com/commercial-ac-unit-replacement</loc>
         <lastmod>2026-10-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 """
 
-if "https://acrepairnaplesfl.com/ac-not-working" not in sitemap:
-    target_loc = "<loc>https://acrepairnaplesfl.com/refrigerant-freon-recharge</loc>"
+if "https://www.acrepairnaplesfl.com/ac-not-working" not in sitemap:
+    target_loc = "<loc>https://www.acrepairnaplesfl.com/refrigerant-freon-recharge</loc>"
     if target_loc in sitemap:
         pos = sitemap.find(target_loc)
         end_url = sitemap.find("</url>", pos)
