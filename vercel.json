@@ -13,11 +13,6 @@
       "permanent": true
     },
     {
-      "source": "/ac-not-cooling.html",
-      "destination": "/ac-not-cooling",
-      "permanent": true
-    },
-    {
       "source": "/blog.html",
       "destination": "/blog",
       "permanent": true
@@ -163,18 +158,8 @@
       "permanent": true
     },
     {
-      "source": "/ac-not-working.html",
-      "destination": "/ac-not-working",
-      "permanent": true
-    },
-    {
       "source": "/central-ac-repair.html",
       "destination": "/central-ac-repair",
-      "permanent": true
-    },
-    {
-      "source": "/ac-not-blowing-cold-air.html",
-      "destination": "/ac-not-blowing-cold-air",
       "permanent": true
     },
     {

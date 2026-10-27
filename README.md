@@ -4,7 +4,7 @@ Website for AC Repair Naples Fl, specializing in HVAC.
 
 ## Files included
 
-- 15 pages in the root folder (`404.html`, `about.html`, `ac-not-cooling.html`, `condensate-drain-clog.html`, `contact.html`, `hvac-aqualane-shores.html`, `hvac-bayshore-arts-district.html`, `hvac-royal-harbor.html`, `hvac-system-replacement.html`, `index.html`, `locations.html`, `mini-split-repair.html`, `privacy-policy.html`, `services.html`, `window-ac-installation.html`)
+- 15 pages in the root folder (`404.html`, `about.html`, `condensate-drain-clog.html`, `contact.html`, `hvac-aqualane-shores.html`, `hvac-bayshore-arts-district.html`, `hvac-royal-harbor.html`, `hvac-system-replacement.html`, `index.html`, `locations.html`, `mini-split-repair.html`, `privacy-policy.html`, `services.html`, `window-ac-installation.html`)
 - `assets/` - stylesheet, scripts and images
 - `.htaccess`
 - `_redirects`

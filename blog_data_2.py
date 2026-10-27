@@ -18,7 +18,7 @@ ARTICLES_PART_2 = [
         "meta_title": "AC Frozen in Naples, FL? Common Causes & What to Do",
         "meta_desc": "Seeing ice on your air conditioner in 90-degree Florida heat? Discover why evaporator coils freeze, emergency steps to thaw it, and how to prevent compressor damage.",
         "excerpt": "It seems impossible: your outdoor thermometer reads 94°F, yet your air conditioner is coated in solid ice. Here is the physics behind frozen AC coils in Florida and what you must do right now.",
-        "primary_service": "ac-not-cooling.html",
+        "primary_service": "central-ac-repair.html",
         "primary_service_anchor": "emergency frozen AC repair services",
         "content_html": """
 <p class="lead" style="font-size:1.18rem;line-height:1.75;color:var(--t6-ink);font-weight:500;">
@@ -150,7 +150,7 @@ Yes, if left running. When the evaporator is frozen, liquid refrigerant cannot e
 
 <h2>Conclusion</h2>
 <p>
-A frozen air conditioner in Naples is always symptomatic of either restricted airflow or a refrigerant pressure leak. Shut your unit off, let it thaw with the fan running, and contact AC Repair Naples Fl for reliable, same-day <a href="../ac-not-cooling.html">frozen AC repair in Naples, FL</a>.
+A frozen air conditioner in Naples is always symptomatic of either restricted airflow or a refrigerant pressure leak. Shut your unit off, let it thaw with the fan running, and contact AC Repair Naples Fl for reliable, same-day frozen AC repair in Naples, FL.
 </p>
 """
     },

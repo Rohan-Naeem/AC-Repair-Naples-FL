@@ -297,7 +297,7 @@ Under the American Innovation and Manufacturing (AIM) Act, the EPA is phasing do
 
 <h2>Conclusion</h2>
 <p>
-An air conditioner with low refrigerant will never cool properly and risks complete compressor seizure if left running. If your vents blow warm or your evaporator coil shows ice, turn the system off and contact AC Repair Naples Fl for certified <a href="../refrigerant-freon-recharge.html">refrigerant leak repair and Freon recharge in Naples, FL</a>.
+An air conditioner with low refrigerant will never cool properly and risks complete compressor seizure if left running. If your vents blow warm or your evaporator coil shows ice, turn the system off and contact AC Repair Naples Fl for certified <a href="../refrigerant-freon-recharge.html">refrigerant leak repair and professional recharging services</a>.
 </p>
 """
     },

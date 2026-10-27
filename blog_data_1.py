@@ -18,7 +18,7 @@ ARTICLES_PART_1 = [
         "meta_title": "AC Blowing Hot Air in Naples, FL? Common Causes & Solutions",
         "meta_desc": "Is your AC blowing warm or hot air in Naples, FL? Discover the 7 most common causes, safe homeowner checks, and when to call a professional technician.",
         "excerpt": "Few things cause more immediate panic in Southwest Florida than feeling warm air pouring from your supply registers on a 92°F afternoon. Here is what causes your AC to blow hot air and exactly how to respond.",
-        "primary_service": "ac-not-cooling.html",
+        "primary_service": "central-ac-repair.html",
         "primary_service_anchor": "AC not cooling repair services in Naples",
         "content_html": """
 <p class="lead" style="font-size:1.18rem;line-height:1.75;color:var(--t6-ink);font-weight:500;">
@@ -133,7 +133,7 @@ At AC Repair Naples Fl, our certified technicians perform a comprehensive 24-poi
 
 <h2>Conclusion</h2>
 <p>
-An air conditioner blowing hot air during a Florida summer is an urgent issue, but identifying whether it is a simple thermostat setting or a mechanical component failure will help you act quickly. If basic filter and thermostat checks do not resolve the warm airflow, switch the system to OFF and contact our team for trusted, same-day <a href="../ac-not-cooling.html">AC not cooling repair in Naples, FL</a>.
+An air conditioner blowing hot air during a Florida summer is an urgent issue, but identifying whether it is a simple thermostat setting or a mechanical component failure will help you act quickly. If basic filter and thermostat checks do not resolve the warm airflow, switch the system to OFF and contact our team for trusted, same-day AC not cooling repair in Naples, FL.
 </p>
 """
     },
@@ -150,7 +150,7 @@ An air conditioner blowing hot air during a Florida summer is an urgent issue, b
         "meta_title": "Why Is My AC Not Blowing Cold Air? Causes & Fixes | Naples, FL",
         "meta_desc": "Is your AC running constantly but the air just isn't cold? Learn how Delta T works, why cooling efficiency drops in Florida, and how to fix weak cooling performance.",
         "excerpt": "When your AC runs constantly but the air coming out of your vents feels lukewarm or mildly cool rather than crisp and cold, your system is losing cooling efficiency. Here is how to diagnose and fix it.",
-        "primary_service": "ac-not-cooling.html",
+        "primary_service": "central-ac-repair.html",
         "primary_service_anchor": "comprehensive AC cooling diagnostics",
         "content_html": """
 <p class="lead" style="font-size:1.18rem;line-height:1.75;color:var(--t6-ink);font-weight:500;">
@@ -299,7 +299,7 @@ If your air conditioner is more than 10 to 12 years old, utilizes phased-out R-2
 
 <h2>Conclusion</h2>
 <p>
-Living with an AC that refuses to blow cold air is unnecessary and damaging to your equipment. Start with basic filter inspections and thermostat verification. If your temperature split remains below 16°F, schedule an inspection with our team for certified <a href="../ac-not-cooling.html">AC not cooling repairs in Naples, FL</a>.
+Living with an AC that refuses to blow cold air is unnecessary and damaging to your equipment. Start with basic filter inspections and thermostat verification. If your temperature split remains below 16°F, schedule an inspection with our team for certified AC not cooling repairs in Naples, FL.
 </p>
 """
     },
